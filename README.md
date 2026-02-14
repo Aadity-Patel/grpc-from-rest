@@ -13,7 +13,7 @@ But real developers usually come from **REST backgrounds** and struggle with:
   5. Production patterns
 
 This repo solves that by teaching:
-  **How to think in gRPC if you already know REST**
+    **How to think in gRPC if you already know REST**
 
 ## 🧠 What you will learn
   1. gRPC fundamentals
@@ -31,6 +31,7 @@ This repo solves that by teaching:
 ## 📚 Repository Structure (Module Based Learning)
 This repository is structured like a training program.
 
+```
 GRPC-from-REST/
 │
 ├── module-00-basics
@@ -43,6 +44,8 @@ GRPC-from-REST/
 ├── module-07-versioning
 ├── module-08-grpc-springboot
 └── module-09-real-world-case-study
+```
+
 Each module contains:
   - Theory
   - Code examples
@@ -53,21 +56,24 @@ Each module contains:
 ## 🏗 Learning Approach
 This repo follows a **trainer-style progression**:
 
-Module	Focus
-Module 00	gRPC theory & mental model
-Module 01	First unary gRPC call
-Module 02	CRUD service (REST → gRPC mapping)
-Module 03	Streaming (core strength of gRPC)
-Module 04+	Production-ready concepts
+| Module     | Focus                                      |
+|------------|--------------------------------------------|
+| Module 00  | gRPC theory & mental model                 |
+| Module 01  | First unary gRPC call                      |
+| Module 02  | CRUD service (REST → gRPC mapping)         |
+| Module 03  | Streaming (core strength of gRPC)          |
+| Module 04+ | Production-ready concepts                  |
+
 You can follow modules in order like a course.
 
 ## 🆚 REST vs gRPC (Quick View)
-REST	gRPC
-URL + HTTP verbs	Method-based calls
-JSON	Protobuf (binary)
-HTTP/1.1	HTTP/2
-Weak contracts	Strong contracts
-Limited streaming	Full streaming support
+| REST                     | gRPC                         |
+|--------------------------|------------------------------|
+| URL + HTTP verbs         | Method-based calls           |
+| JSON                     | Protobuf (binary)            |
+| HTTP/1.1                 | HTTP/2                       |
+| Weak contracts           | Strong contracts             |
+| Limited streaming        | Full streaming support       |
 
 ## 🛠 Tech Stack
   - Java
@@ -77,28 +83,19 @@ Limited streaming	Full streaming support
   - Spring Boot (later modules)
 
 ## 👨‍💻 Who this repo is for
-Backend developers moving from REST → gRPC
-
-Java/Spring developers
-
-Microservice developers
-
-Engineers preparing for system design interviews
-
-Anyone wanting strong gRPC fundamentals
+  - Backend developers moving from REST → gRPC
+  - Java/Spring developers
+  - Microservice developers
+  - Engineers preparing for system design interviews
+  - Anyone wanting strong gRPC fundamentals
 
 ## ⭐ End Goal
 By the end of this repository, you should be able to:
-
-Design production-ready gRPC services
-
-Replace REST with gRPC for internal microservices
-
-Implement streaming correctly
-
-Handle errors, retries, and metadata
-
-Confidently use gRPC in real systems
+  - Design production-ready gRPC services
+  - Replace REST with gRPC for internal microservices
+  - Implement streaming correctly
+  - Handle errors, retries, and metadata
+  - Confidently use gRPC in real systems
 
 ## 📌 Author Note
 This is a structured learning repository built while mastering gRPC deeply from a real-world backend engineering perspective.
@@ -108,7 +105,7 @@ If you're also transitioning from REST to gRPC, this repo will help you avoid co
 ## 🚀 Next Step
 Start here:
 
-➡ module-00-basics → Understanding gRPC fundamentals before coding
+➡ **module-00-basics** → Understanding gRPC fundamentals before coding
 
 ## ⭐ If this helps you
 Star the repo and follow along the learning journey.
